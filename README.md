@@ -1,3 +1,5 @@
+whenever someone gives us a ReactApp generally NodeModules folder is very heavy so it we place it in .Gitignore, we need to just run the CMD at the location of the folder and type  "npm-install" this will install all the depencies that are present in PACKAGE.JSON to your local machine.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
