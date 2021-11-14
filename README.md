@@ -1,4 +1,4 @@
-# whenever someone gives us a ReactApp the NodeModules, we need to just run the CMD at the location of the folder and type  "npm-install" this will install all the depencies that are present in PACKAGE.JSON , generally NodeModules is very heavy so it in .Gitignore, so we need to run this CMD to get the dependencies to your local machine
+whenever someone gives us a ReactApp generally NodeModules folder is very heavy so it we place it in .Gitignore, we need to just run the CMD at the location of the folder and type  "npm-install" this will install all the depencies that are present in PACKAGE.JSON to your local machine.
 
 # Getting Started with Create React App
 
