@@ -1,12 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
+import reportWebVitals from './reportWebVitals';
+import Header from './Header';
+
+const MyApp = () => {
+  return (
+    <div>
+  <Header>
+     
+      </Header>
+      <h1>Why Love Running with us?</h1>
+      <h2>Feel Healthy</h2>
+      <h2>Feel Free</h2>
+
+    </div>
+  )
+}
+
+export default Header
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MyApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
