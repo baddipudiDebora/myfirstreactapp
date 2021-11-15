@@ -4,6 +4,8 @@ import './index.css';
 
 import reportWebVitals from './reportWebVitals';
 import Header from './Header';
+import BodyHomePage from './BodyHomePage';
+import Gallery from './Gallery';
 
 const MyApp = () => {
   return (
@@ -11,9 +13,10 @@ const MyApp = () => {
   <Header>
      
       </Header>
-      <h1>Why Love Running with us?</h1>
-      <h2>Feel Healthy</h2>
-      <h2>Feel Free</h2>
+      <BodyHomePage>
+      </BodyHomePage>
+
+      
 
     </div>
   )
